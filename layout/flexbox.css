@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+body,
+h1,
+h2,
+ul {
+    margin: 0px;
+}
+
+/*header樣式設定*/
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+/*導覽列樣式設定*/
+nav {
+    background-color: lightpink;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    margin: 0px;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: lightyellow;
+    color: red;
+    transition: background-color 1s linear, color 1s ease-in;
+}
+
+/*banner樣式設定*/
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 192, 203, 80%);
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-family: Macondo;
+}
+
+/*動物之星樣式設定*/
+
+#starlist ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+#starlist li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+#starlist img {
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px grey;
+}
+
+#starlist .emptyitem {
+    width: 200px;
+}
+
+.go-top {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    font-size: 60px;
+    color: blue;
+}
